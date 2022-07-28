@@ -1,5 +1,14 @@
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: #090909bd;
+    background-color: #142027;
+}
+.row>* {
+    margin:0;
+    padding:0;
 }
 
 .contatos{
@@ -18,7 +27,7 @@ body {
     border-bottom: 1px solid #8696A059;
 }
 .icon-pesquisa{
-    color: #202c33;
+    background-color: #202c33;
     border-radius: 8px;
 }
 .icon-pesquisa input{
@@ -30,16 +39,30 @@ body {
 .icon-pesquisa input:focus{
     outline: 0px;
 }
-.header-grupo{
-    background-color: #202C33;
+.contatos .header-grupo{
+    background-color: transparent;
     color: #fff;
-    height: 59px;
+    height: 70px;
 }
-.img-grupo{
+.contatos .header-grupo span{
+    margin: 0px 8px;
+}
+
+.contatos .header-grupo small{
+    font-size: 12px;
+}
+.contatos .img-grupo{
         width: 49px;
-        margin-left: 5px;
+        margin: 0px 15px;
         border-radius: 50%;
-    }
+}
+
+.contatos .info-grupo p{
+    font-size: 15px;
+    padding-bottom: 12px;
+    margin-right: 10px;
+    border-bottom: 1px solid #8696A02D;
+}
 
 .chat img {
     width: 40px;
